@@ -1,9 +1,16 @@
-import { router } from '~/shared/router'
+import { useState } from 'react'
 
 function App() {
-  console.log(router)
+  const [count, setCount] = useState(0)
 
-  return <>App</>
+  return (
+    <>
+      <button type="button" onClick={() => setCount((count) => count + 1)}>
+        App
+      </button>
+      <p>{count}</p>
+    </>
+  )
 }
 
 export default App
