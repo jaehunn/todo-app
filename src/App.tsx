@@ -1,9 +1,9 @@
-import { router } from "~/shared/router";
+import { router } from '~/shared/router'
 
 function App() {
-  console.log(router);
+  console.log(router)
 
-  return <>App</>;
+  return <>App</>
 }
 
-export default App;
+export default App
