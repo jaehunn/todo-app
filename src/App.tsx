@@ -1,10 +1,10 @@
-import { RouteProvider } from './app/providers'
+import { QueryProvider, RouteProvider } from './app/providers'
 
 function App() {
   return (
-    <>
+    <QueryProvider>
       <RouteProvider />
-    </>
+    </QueryProvider>
   )
 }
 
