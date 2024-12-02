@@ -1,7 +1,9 @@
-Pages
+Auth
 
-- [ ] Home
 - [ ] Login
 - [ ] SignUp
+
+Todo
+
 - [ ] TodoList
 - [ ] TodoDetail
